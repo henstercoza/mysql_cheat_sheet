@@ -1,7 +1,13 @@
 # mysql_cheat_sheet
 SQL Cheat Sheet 2020
 
+***********************************************
+SQL SELECT statement syntax
 
+SELECT [DISTINCT|ALL ] { * | [fieldExpression [AS newName]} FROM tableName [alias] [WHERE condition][GROUP BY fieldName(s)]  [HAVING condition] ORDER BY fieldName(s)
+
+
+************************************************
 Command	Description
 CREATE DATABASE DATABASE;	Create database
 CREATE DATABASE NOT EXISTS database1;	IF NOT EXISTS let you to instruct MySQL server to check the existence of a database with a similar name prior to creating database.
